@@ -16,7 +16,7 @@ public class DriverHello {
         Configuration configuration = new Configuration();
         Job job = Job.getInstance(configuration);
 
-        //指定jar所在路径
+        //指定jar所在路径  
         job.setJarByClass(DriverHello.class);
         //指定mapper类
         job.setMapperClass(HelloMap.class);
